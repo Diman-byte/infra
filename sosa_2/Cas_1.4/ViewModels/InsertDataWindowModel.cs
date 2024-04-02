@@ -1,31 +1,12 @@
-﻿using Common.MsgLog;
-using Common;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
+using System.Linq;
 using System.Text;
-using System.Windows;
-using HistoryDB;
-using System.Windows.Controls;
-using Cas_1._4.Views;
-
+using System.Threading.Tasks;
 
 namespace Cas_1._4.ViewModels
 {
-    public class InsertDataWindowModel
+    class InsertDataWindowModel
     {
-        private CassandraHistory _cassandraHistory;
-
-        public InsertDataWindowModel(CassandraHistory cassandraHistory)
-        {
-            _cassandraHistory = cassandraHistory;
-        }
-
-   
-
-        private void NodeIdTextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
-        {
-
-        }
     }
 }

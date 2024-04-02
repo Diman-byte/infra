@@ -12,7 +12,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 using Cas_1._4.Views;
-using Cas_1._4.ViewModels;
+// using Cas_1._4.ViewModels;
 
 using static Cas_1._4.Views.ConnectDialog;
 
@@ -60,7 +60,7 @@ namespace Cas_1._4
 
         private void InsertData_Click(object sender, RoutedEventArgs e)
         {
-            DataContext = new InsertDataWindowModel(_cassandraHistory);
+            DataContext = new InsertDataWindow(_cassandraHistory);
            // InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
         }
 

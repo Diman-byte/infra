@@ -7,13 +7,12 @@
         xmlns:local="clr-namespace:Cas_1._4"
         
         xmlns:views="clr-namespace:Cas_1._4.Views"
-        xmlns:viewsmodels="clr-namespace:Cas_1._4.ViewModels"
         
         mc:Ignorable="d"
         Title="Cassandra Data Management" Height="500" Width="800">
 
     <Window.Resources>
-        <DataTemplate x:Name="InsertTemplate" DataType="{x:Type views:InsertDataWindow}">
+        <DataTemplate x:Name="InsertTemplate"  DataType="{x:Type views:InsertDataWindow}">
             <views:InsertDataWindow DataContext="{Binding}"/>
         </DataTemplate>
     </Window.Resources>
