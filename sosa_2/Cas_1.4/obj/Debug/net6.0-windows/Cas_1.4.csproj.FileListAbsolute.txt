@@ -69,13 +69,16 @@ C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.g.cs
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\RedView.g.cs
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\Test_for_edu.g.cs
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.cache
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4_MarkupCompile.lref
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\MainWindow.baml
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\ConnectDialog.baml
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\InsertDataWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\RedView.baml
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\Test_for_edu.baml
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.g.resources
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Cas_1.4.GeneratedMSBuildEditorConfig.editorconfig

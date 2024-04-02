@@ -5,10 +5,39 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cas_1._4"
+        
+        xmlns:views="clr-namespace:Cas_1._4.Views"
+        xmlns:viewsmodels="clr-namespace:Cas_1._4.ViewModels"
+        
         mc:Ignorable="d"
         Title="Cassandra Data Management" Height="500" Width="800">
-    <Grid Margin="1,0,-1,0">
-        <Menu VerticalAlignment="Top">
+
+    <Window.Resources>
+        <DataTemplate x:Name="InsertTemplate" DataType="{x:Type views:InsertDataWindow}">
+            <views:InsertDataWindow DataContext="{Binding}"/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid Background="Gray">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Menu VerticalAlignment="Top" Grid.ColumnSpan="5">
             <MenuItem Header="File">
                 <MenuItem Header="Connect" Click="Connect_Click"/>
                 <MenuItem Header="Disconnect" Click="Disconnect_Click"/>
@@ -23,9 +52,12 @@
                 <MenuItem Header="Manage Events" Click="ManageEvents_Click"/>
             </MenuItem>
         </Menu>
-        <TextBox x:Name="LogTextBox" IsReadOnly="True" VerticalAlignment="Bottom" Margin="10"/>
+       <!-- <TextBox x:Name="LogTextBox" IsReadOnly="True" VerticalAlignment="Bottom" Margin="10"/> -->
 
-        <ContentControl Content="{Binding}"/>
+
+        <ContentControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="4" Content="{Binding}"/>
+
+
     </Grid>
 </Window>
  

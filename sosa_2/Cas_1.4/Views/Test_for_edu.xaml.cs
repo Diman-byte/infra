@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HistoryDB;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,11 @@ namespace Cas_1._4.Views
         public Test_for_edu()
         {
             InitializeComponent();
+        }
+        private CassandraHistory _cassandraHistory;
+        private void RedView_Clicked(object sender, RoutedEventArgs e)
+        {
+            DataContext = new RedView();
         }
     }
 }
