@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ko1cfLIbzi3ELWbuWC0/NYka6YmW4zYVkNDXzbSLMpKfxnqqow9Pg7NS5iwupIqlqpHQBgg77Ma2SFRIt2hC8A==",
+  "dgSpecHash": "JWsDK0iLuuo5xAzmFXiqZ2Vr/CQFqW9+a0a2bPY6T0akY30KIsDMpRALqHvSorETj8Zrl9qQU9JQB+rgC0lwRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\C#\\sosa_2\\HistoryDB\\HistoryDB.csproj",
+  "projectFilePath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\HistoryDB\\HistoryDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitriy.Simonov\\.nuget\\packages\\cassandracsharpdriver\\3.19.1\\cassandracsharpdriver.3.19.1.nupkg.sha512",
     "C:\\Users\\Dmitriy.Simonov\\.nuget\\packages\\coreclr-ncalc\\2.2.113\\coreclr-ncalc.2.2.113.nupkg.sha512",

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Cas_1._4.Views"
         mc:Ignorable="d"
         Title="Test_for_edu" Height="450" Width="800">
-    <Grid Background="Aqua">
+    <Grid Background="Red">
         
     </Grid>
 </Window>

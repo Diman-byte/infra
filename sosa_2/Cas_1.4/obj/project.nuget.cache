@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3RU9h03/lhgur+U/LT+PL9Gy4i2iLoHl7S2/IEXYK4GsYew9O6cw/MwBLUV01Tp+MEyWLwPDTqM764ypRjd83w==",
+  "dgSpecHash": "Y3EvZAa/BRYroIB/U+tUcZG2jFEqA7OBNzSBx3DZ5qMnZmfs+9oLpK89OJRSf4NwQys79nCjzTZcK3K05F38lA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\C#\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
+  "projectFilePath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dmitriy.Simonov\\.nuget\\packages\\cassandracsharpdriver\\3.19.1\\cassandracsharpdriver.3.19.1.nupkg.sha512",
     "C:\\Users\\Dmitriy.Simonov\\.nuget\\packages\\coreclr-ncalc\\2.2.113\\coreclr-ncalc.2.2.113.nupkg.sha512",

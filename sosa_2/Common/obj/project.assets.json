@@ -669,11 +669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmitriy.Simonov\\Desktop\\C#\\sosa_2\\Common\\Common.csproj",
+      "projectUniqueName": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\C#\\sosa_2\\Common\\Common.csproj",
+      "projectPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\Dmitriy.Simonov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\C#\\sosa_2\\Common\\obj\\",
+      "outputPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
