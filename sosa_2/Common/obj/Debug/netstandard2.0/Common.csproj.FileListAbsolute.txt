@@ -59,3 +59,14 @@ C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netst
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.sourcelink.json
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.dll
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.deps.json
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\bin\Debug\netstandard2.0\Common.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.AssemblyReference.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfoInputs.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.AssemblyInfo.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.sourcelink.json
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Common\obj\Debug\netstandard2.0\Common.pdb

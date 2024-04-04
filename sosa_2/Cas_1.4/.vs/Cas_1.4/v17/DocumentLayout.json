@@ -1,112 +1,115 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\",
+  "WorkspaceRootPath": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\tryinitializehistdbcolumns.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\tryinitializehistdbcolumns.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{59135E61-1053-4FB2-9252-A6F504C60924}|..\\HistoryDB\\HistoryDB.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\historydb\\cassandrahistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\readhistdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\readhistdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\tryinitializehistdbcolumns.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\tryinitializehistdbcolumns.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59135E61-1053-4FB2-9252-A6F504C60924}|..\\HistoryDB\\HistoryDB.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\historydb\\cassandrahistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\createkeyspacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\createkeyspacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\createkeyspacewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\msglog\\msglog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\readhistdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\readhistdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\insertdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\tryinitializehistdbcolumns.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\tryinitializehistdbcolumns.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\tryinitializehistdbcolumns.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\tryinitializehistdbcolumns.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\insertdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\insertdatawindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\msglog\\listmsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\msglog\\typemsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\insertdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\insertdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\insertdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\cas_1.4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\cas_1.4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:cas_1.4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\createkeyspacewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\createkeyspacewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\createkeyspacewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\readhistdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\readhistdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\readhistdatawindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59135E61-1053-4FB2-9252-A6F504C60924}|..\\HistoryDB\\HistoryDB.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\historydb\\databasecommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\connectdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\connectdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\connectdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59135E61-1053-4FB2-9252-A6F504C60924}|..\\HistoryDB\\HistoryDB.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\historydb\\historydatabaseinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\dataval.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\namevalview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\dataprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\configxml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\activation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\views\\connectdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\views\\connectdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:views\\connectdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{595E5C65-C2B4-4B3F-97F9-8BBFAE8DFACB}|..\\Common\\Common.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\common\\common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\cas_1.4\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|c:\\users\\maksim.shamin\\desktop\\our project\\infra\\sosa_2\\cas_1.4\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE3712EF-2297-42AC-A5D9-477921C94660}|Cas_1.4.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dmitriy.Simonov\\AppData\\Local\\Temp\\.vsdbgsrc\\d498bf5cbf016a5efdb400a121800957635e0d0b034e73e35cb6157ee74399c0\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59135E61-1053-4FB2-9252-A6F504C60924}|..\\HistoryDB\\HistoryDB.csproj|c:\\users\\maksim.shamin\\source\\repos\\interface\\sosa_2\\historydb\\historydb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\MsgLog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\CassandraHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\ListMsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\TypeMsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\DataBaseCommon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\ConfigXML.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Activation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\DataVal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\DataProcessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\NameValView.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDataBaseInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDB.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -116,28 +119,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 332,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TryInitializeHistDBColumns.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\TryInitializeHistDBColumns.xaml.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml.cs",
-              "RelativeToolTip": "Views\\TryInitializeHistDBColumns.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "CassandraHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "RelativeDocumentMoniker": "..\\HistoryDB\\CassandraHistory.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\HistoryDB\\CassandraHistory.cs",
+              "RelativeToolTip": "..\\HistoryDB\\CassandraHistory.cs",
+              "ViewState": "AQIAAMcCAAAAAAAAAAAAANgCAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T12:46:13.872Z",
+              "WhenOpened": "2024-04-04T13:58:58.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "TryInitializeHistDBColumns.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\TryInitializeHistDBColumns.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml.cs",
+              "RelativeToolTip": "Views\\TryInitializeHistDBColumns.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T12:46:13.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ReadHistDataWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ReadHistDataWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml.cs",
               "RelativeToolTip": "Views\\ReadHistDataWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -146,150 +161,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "CreateKeySpaceWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml.cs",
               "RelativeDocumentMoniker": "Views\\CreateKeySpaceWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml.cs",
               "RelativeToolTip": "Views\\CreateKeySpaceWindow.xaml.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T08:30:36.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "MsgLog.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\MsgLog.cs",
-              "RelativeDocumentMoniker": "..\\Common\\MsgLog\\MsgLog.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\MsgLog.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\MsgLog.cs",
-              "RelativeToolTip": "..\\Common\\MsgLog\\MsgLog.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\MsgLog.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T09:58:51.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-04T09:58:51.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "CassandraHistory.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\CassandraHistory.cs",
-              "RelativeDocumentMoniker": "..\\HistoryDB\\CassandraHistory.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\CassandraHistory.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\CassandraHistory.cs",
-              "RelativeToolTip": "..\\HistoryDB\\CassandraHistory.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\CassandraHistory.cs",
               "ViewState": "AQIAAJACAAAAAAAAAAAAwKwCAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T07:12:07.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T07:12:07.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InsertDataWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\InsertDataWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml.cs",
+              "RelativeToolTip": "Views\\InsertDataWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:18:10.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ListMsg.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\ListMsg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\ListMsg.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\ListMsg.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\ListMsg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T09:58:47.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TypeMsg.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\TypeMsg.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\TypeMsg.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\TypeMsg.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\TypeMsg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T13:20:11.98Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "InsertDataWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\InsertDataWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml.cs",
-              "RelativeToolTip": "Views\\InsertDataWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAFAAAA",
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAA5wFcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T13:18:10.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ListMsg.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\ListMsg.cs",
-              "RelativeDocumentMoniker": "..\\Common\\MsgLog\\ListMsg.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\ListMsg.cs",
-              "RelativeToolTip": "..\\Common\\MsgLog\\ListMsg.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T09:58:47.037Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T07:12:07.723Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "TypeMsg.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\TypeMsg.cs",
-              "RelativeDocumentMoniker": "..\\Common\\MsgLog\\TypeMsg.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\MsgLog\\TypeMsg.cs",
-              "RelativeToolTip": "..\\Common\\MsgLog\\TypeMsg.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T13:20:11.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAA5wFcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T07:12:07.723Z",
-              "EditorCaption": ""
+              "Title": "Cas_1.4.csproj",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
+              "RelativeDocumentMoniker": "Cas_1.4.csproj",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
+              "RelativeToolTip": "Cas_1.4.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-02T07:12:07.785Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Cas_1.4.csproj",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
-              "RelativeDocumentMoniker": "Cas_1.4.csproj",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
-              "RelativeToolTip": "Cas_1.4.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-02T07:12:07.785Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "ReadHistDataWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml",
               "RelativeDocumentMoniker": "Views\\ReadHistDataWindow.xaml",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ReadHistDataWindow.xaml",
               "RelativeToolTip": "Views\\ReadHistDataWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-02T07:33:54.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "DataBaseCommon.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\DataBaseCommon.cs",
-              "RelativeDocumentMoniker": "..\\HistoryDB\\DataBaseCommon.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\DataBaseCommon.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\DataBaseCommon.cs",
-              "RelativeToolTip": "..\\HistoryDB\\DataBaseCommon.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\DataBaseCommon.cs",
               "ViewState": "AQIAAFQAAAAAAAAAAAA7wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T07:02:15.579Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ConfigXML.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\ConfigXML.cs",
-              "RelativeDocumentMoniker": "..\\Common\\ConfigXML.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\ConfigXML.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\ConfigXML.cs",
-              "RelativeToolTip": "..\\Common\\ConfigXML.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\ConfigXML.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T07:12:07.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "ConnectDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ConnectDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml.cs",
               "RelativeToolTip": "Views\\ConnectDialog.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -297,94 +305,94 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Activation.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Activation.cs",
-              "RelativeDocumentMoniker": "..\\Common\\Activation.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\Activation.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Activation.cs",
-              "RelativeToolTip": "..\\Common\\Activation.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\Activation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAEsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T07:12:07.716Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "DataVal.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\DataVal.cs",
-              "RelativeDocumentMoniker": "..\\Common\\DataVal.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\DataVal.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\DataVal.cs",
-              "RelativeToolTip": "..\\Common\\DataVal.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\DataVal.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T07:12:07.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "DataProcessing.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\DataProcessing.cs",
-              "RelativeDocumentMoniker": "..\\Common\\DataProcessing.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\DataProcessing.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\DataProcessing.cs",
-              "RelativeToolTip": "..\\Common\\DataProcessing.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\DataProcessing.cs",
               "ViewState": "AQIAAPgAAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T07:12:07.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 13,
               "Title": "ConnectDialog.xaml",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml",
               "RelativeDocumentMoniker": "Views\\ConnectDialog.xaml",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\ConnectDialog.xaml",
               "RelativeToolTip": "Views\\ConnectDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-02T07:12:07.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "NameValView.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\NameValView.cs",
-              "RelativeDocumentMoniker": "..\\Common\\NameValView.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\NameValView.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\NameValView.cs",
-              "RelativeToolTip": "..\\Common\\NameValView.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\NameValView.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T07:12:07.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "HistoryDataBaseInfo.cs",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDataBaseInfo.cs",
-              "RelativeDocumentMoniker": "..\\HistoryDB\\HistoryDataBaseInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDataBaseInfo.cs",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDataBaseInfo.cs",
-              "RelativeToolTip": "..\\HistoryDB\\HistoryDataBaseInfo.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDataBaseInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T07:12:07.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Common.csproj",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Common.csproj",
-              "RelativeDocumentMoniker": "..\\Common\\Common.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\Common.csproj",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Common.csproj",
-              "RelativeToolTip": "..\\Common\\Common.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\Common\\Common.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-04-02T07:12:07.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 14,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -392,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 15,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\App.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-02T07:12:07.782Z",
@@ -404,23 +412,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "HistoryDB.csproj",
               "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDB.csproj",
-              "RelativeDocumentMoniker": "..\\HistoryDB\\HistoryDB.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDB.csproj",
               "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDB.csproj",
-              "RelativeToolTip": "..\\HistoryDB\\HistoryDB.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDB.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-04-02T07:12:07.79Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 16,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\AssemblyInfo.cs",
               "RelativeToolTip": "AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -428,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 17,
               "Title": "ResourcePart.cs",
               "DocumentMoniker": "C:\\Users\\Dmitriy.Simonov\\AppData\\Local\\Temp\\.vsdbgsrc\\d498bf5cbf016a5efdb400a121800957635e0d0b034e73e35cb6157ee74399c0\\ResourcePart.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Dmitriy.Simonov\\AppData\\Local\\Temp\\.vsdbgsrc\\d498bf5cbf016a5efdb400a121800957635e0d0b034e73e35cb6157ee74399c0\\ResourcePart.cs",
@@ -446,11 +454,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TryInitializeHistDBColumns.xaml",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml",
               "RelativeDocumentMoniker": "Views\\TryInitializeHistDBColumns.xaml",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\TryInitializeHistDBColumns.xaml",
               "RelativeToolTip": "Views\\TryInitializeHistDBColumns.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-04T12:46:10.487Z",
@@ -458,39 +466,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "InsertDataWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml",
               "RelativeDocumentMoniker": "Views\\InsertDataWindow.xaml",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\InsertDataWindow.xaml",
               "RelativeToolTip": "Views\\InsertDataWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-02T07:12:07.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T07:12:07.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 9,
               "Title": "CreateKeySpaceWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml",
               "RelativeDocumentMoniker": "Views\\CreateKeySpaceWindow.xaml",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\Views\\CreateKeySpaceWindow.xaml",
               "RelativeToolTip": "Views\\CreateKeySpaceWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-02T08:30:12.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T08:30:12.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Maksim.Shamin\\Desktop\\Our project\\infra\\sosa_2\\Cas_1.4\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-02T07:12:07.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T07:12:07.712Z"
             }
           ]
         }

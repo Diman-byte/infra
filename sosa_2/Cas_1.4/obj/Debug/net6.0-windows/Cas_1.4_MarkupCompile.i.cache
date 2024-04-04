@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Maksim.Shamin\source\repos\interface\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\
 Cas_1._4
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Maksim.Shamin\source\repos\interface\sosa_2\Cas_1.4\App.xaml
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\App.xaml
 7653599861
 
 12-88456813
-205-407155050
+205-1029579054
 MainWindow.xaml;Views\ConnectDialog.xaml;Views\CreateKeySpaceWindow.xaml;Views\InsertDataWindow.xaml;Views\ReadHistDataWindow.xaml;Views\Test_for_edu.xaml;Views\TryInitializeHistDBColumns.xaml;
 
 True

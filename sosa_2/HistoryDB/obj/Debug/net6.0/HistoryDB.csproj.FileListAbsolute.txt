@@ -97,3 +97,19 @@ C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\HistoryDB\obj\Debug\ne
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\HistoryDB\obj\Debug\net6.0\refint\HistoryDB.dll
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.pdb
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\HistoryDB\obj\Debug\net6.0\ref\HistoryDB.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\bin\Debug\net6.0\HistoryDB.deps.json
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\bin\Debug\net6.0\HistoryDB.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\bin\Debug\net6.0\HistoryDB.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\bin\Debug\net6.0\Common.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\bin\Debug\net6.0\Common.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.csproj.AssemblyReference.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.AssemblyInfoInputs.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.AssemblyInfo.cs
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.csproj.CoreCompileInputs.cache
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.sourcelink.json
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.csproj.Up2Date
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\refint\HistoryDB.dll
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\HistoryDB.pdb
+C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\HistoryDB\obj\Debug\net6.0\ref\HistoryDB.dll
