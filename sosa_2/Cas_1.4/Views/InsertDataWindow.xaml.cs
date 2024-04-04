@@ -37,23 +37,37 @@ namespace Cas_1._4.Views
             // Получаем данные из UI
             string database = DatabaseTextBox.Text;
             int nodeId = int.Parse(NodeIdTextBox.Text);
-            Dictionary<int, List<DataVal>> data = new Dictionary<int, List<DataVal>>();
+            Dictionary<int, List<DataVal>> data_1 = new Dictionary<int, List<DataVal>>();
 
-            // Заполняем данные из таблицы
-            foreach (var item in DataGrid.Items)
+            // ручной метод
+            // data_1.Add(1, new List<DataVal>() { new DataVal {DateTime = DateTime.Now, Val = 10.5, IsGood = true } });
+
+            // рандом
+            int limit_tag = 5;   // количество тегов для генерации
+            int interval = 100;  // диапазон рандомных чисел от 0 до interval
+            int kolvo_val = 5;   // количество значений в каждом теге
+            var random = new Random();
+            for (int tag_id = 1; tag_id <= limit_tag; tag_id++)
             {
-                DataVal dataVal = item as DataVal;
-                int tagId = (int)dataVal.sn;
-                if (!data.ContainsKey(tagId))
-                {
-                    data[tagId] = new List<DataVal>();
+                var new_list = new List<DataVal>();
+                for (int i = 0; i < kolvo_val; i++) {
+                    new_list.Add(new DataVal
+                    {
+                        DateTime = DateTime.Now.AddMinutes(-i),
+                        Val = (double)(random.NextDouble() * interval), // генерация случайного значения
+                        IsGood = random.NextDouble() > 0.1 // 10% шанс на false
+                    });
                 }
-                data[tagId].Add(dataVal);
+                data_1[tag_id] = new_list;
             }
+
+            
+                
+
 
             // Вызываем метод TryInsertData
             MsgLogClass msgLog;
-            bool success = _cassandraHistory.TryInsertData(database, nodeId, data, out msgLog);
+            bool success = _cassandraHistory.TryInsertData(database, nodeId, data_1, out msgLog);
 
             //    // Обновляем лог
             //    if (success)
