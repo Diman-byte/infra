@@ -44,8 +44,11 @@
                 <MenuItem Header="Exit" Click="Exit_Click"/>
             </MenuItem>
             <MenuItem Header="Data">
-                <MenuItem Header="Insert Data" Click="InsertData_Click"/>
+                <MenuItem Header="Insert Random Data" Click="InsertData_Click"/>
                 <MenuItem Header="View Data" Click="ViewData_Click"/>
+                <Separator/>
+               
+                <MenuItem Header="Create Column Family" Click="InitializeHistDBColumns_Click"/>
             </MenuItem>
             <MenuItem Header="Events">
                 <MenuItem Header="Manage Events" Click="ManageEvents_Click"/>

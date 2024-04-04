@@ -19,6 +19,9 @@
     <Compile Update="Views\Test_for_edu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\TryInitializeHistDBColumns.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
@@ -34,6 +37,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Test_for_edu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TryInitializeHistDBColumns.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

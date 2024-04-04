@@ -78,5 +78,12 @@ namespace Cas_1._4
         {
 
         }
+
+        private void InitializeHistDBColumns_Click(object sender, RoutedEventArgs e)
+        {
+            InitializeHistDBColumnsWindow initializeHistDBColumnsWindow = new InitializeHistDBColumnsWindow(_cassandraHistory);
+            initializeHistDBColumnsWindow.ShowDialog();
+        }
+
     }
 }
