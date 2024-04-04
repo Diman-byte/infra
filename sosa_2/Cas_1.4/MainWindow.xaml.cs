@@ -1,4 +1,5 @@
 ﻿
+using Cas_1._4.Views;
 using HistoryDB;
 using System.Text;
 using System.Windows;
@@ -10,9 +11,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
-using Cas_1._4.Views;
-// using Cas_1._4.ViewModels;
 
 using static Cas_1._4.Views.ConnectDialog;
 
@@ -30,7 +28,6 @@ namespace Cas_1._4
         }
 
         private CassandraHistory _cassandraHistory;
-       
 
         private void Connect_Click(object sender, RoutedEventArgs e)
         {
@@ -60,13 +57,14 @@ namespace Cas_1._4
 
         private void InsertData_Click(object sender, RoutedEventArgs e)
         {
-            DataContext = new InsertDataWindow(_cassandraHistory);
-           // InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
+            InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
+            insertDataWindow.ShowDialog();
         }
 
         private void ViewData_Click(object sender, RoutedEventArgs e)
         {
-            // Открытие окна для просмотра данных
+            ReadHistDataWindow readHistDataWindow = new ReadHistDataWindow(_cassandraHistory);
+            readHistDataWindow.ShowDialog();
         }
 
         private void ManageEvents_Click(object sender, RoutedEventArgs e)
@@ -74,9 +72,20 @@ namespace Cas_1._4
             // Открытие окна управления событиями
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void CreateKeySpace_Click(object sender, RoutedEventArgs e)
         {
-
+            CreateKeySpaceWindow createKeySpaceWindow = new CreateKeySpaceWindow(_cassandraHistory);
+            createKeySpaceWindow.ShowDialog(); 
+            // Открываете окно создания KeySpace или вызываете соответствующий метод, если создание происходит без отдельного окна
         }
+
+        private void InitializeHistDBColumns_Click(object sender, RoutedEventArgs e)
+        {
+            InitializeHistDBColumnsWindow initializeHistDBColumnsWindow = new InitializeHistDBColumnsWindow(_cassandraHistory);
+            initializeHistDBColumnsWindow.ShowDialog();
+        }
+
+
+
     }
 }

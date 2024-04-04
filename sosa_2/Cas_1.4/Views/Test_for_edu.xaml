@@ -4,48 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Cas_1._4.Views"
-        
-        
         mc:Ignorable="d"
         Title="Test_for_edu" Height="450" Width="800">
-
-    <Window.Resources>
-        <DataTemplate x:Name="redViewTemplate" DataType="{x:Type local:RedView}">
-            <local:RedView DataContext="{Binding}"/>
-        </DataTemplate>
-    </Window.Resources>
-    
-    
-    <Grid Background="White">
+    <Grid Background="Aqua">
         
-        
-        
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-
-        <Grid.RowDefinitions> 
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-
-        <DockPanel Background="Gray" Grid.Row="0" Grid.Column="0" Grid.RowSpan="5">
-            <StackPanel>
-                <Button Content="Red View" Click="RedView_Clicked"/>
-            </StackPanel>
-
-    
-            
-        </DockPanel>
-
-        <ContentControl Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="4" Grid.RowSpan="5" Content="{Binding}"/>
-
     </Grid>
 </Window>

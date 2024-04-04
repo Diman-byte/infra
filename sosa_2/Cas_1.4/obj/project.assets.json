@@ -3912,23 +3912,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dmitriy.Simonov\\.nuget\\packages\\": {},
+    "C:\\Users\\Maksim.Shamin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
+      "projectUniqueName": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
       "projectName": "Cas_1.4",
-      "projectPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
-      "packagesPath": "C:\\Users\\Dmitriy.Simonov\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Cas_1.4\\obj\\",
+      "projectPath": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\Cas_1.4.csproj",
+      "packagesPath": "C:\\Users\\Maksim.Shamin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Cas_1.4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dmitriy.Simonov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Maksim.Shamin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3937,17 +3937,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Common\\Common.csproj": {
-              "projectPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\Common\\Common.csproj"
+            "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Common.csproj": {
+              "projectPath": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\Common\\Common.csproj"
             },
-            "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\HistoryDB\\HistoryDB.csproj": {
-              "projectPath": "C:\\Users\\Dmitriy.Simonov\\Desktop\\Git\\Cas_1.4\\infra\\sosa_2\\HistoryDB\\HistoryDB.csproj"
+            "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDB.csproj": {
+              "projectPath": "C:\\Users\\Maksim.Shamin\\source\\repos\\interface\\sosa_2\\HistoryDB\\HistoryDB.csproj"
             }
           }
         }
@@ -3956,6 +3957,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3980,7 +3986,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

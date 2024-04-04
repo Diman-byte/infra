@@ -1,0 +1,36 @@
+﻿<Window x:Class="Cas_1._4.Views.ReadHistDataWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Чтение исторических данных" Height="400" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Content="Database:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="DatabaseTextBox" Grid.Row="0" Grid.Column="1"/>
+
+        <Label Content="Node ID:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="NodeIdTextBox" Grid.Row="1" Grid.Column="1"/>
+
+        <Label Content="Начальная точка" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
+        <DatePicker x:Name="BeginDateTimePicker" Grid.Row="2" Grid.Column="1"/>
+
+        <Label Content="Конечная точка" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"/>
+        <DatePicker x:Name="EndDateTimePicker" Grid.Row="3" Grid.Column="1"/>
+
+        <Label Content="Tag ID" Grid.Row="4" Grid.Column="0" VerticalAlignment="Center"/>
+        <TextBox x:Name="TagIdTextBox" Grid.Row="4" Grid.Column="1"/>
+
+        <Button Content="View Data" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Click="ViewData_Click"/>
+    </Grid>
+</Window>

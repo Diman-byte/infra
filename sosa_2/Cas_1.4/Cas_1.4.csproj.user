@@ -10,13 +10,19 @@
     <Compile Update="Views\ConnectDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\CreateKeySpaceWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\InsertDataWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\RedView.xaml.cs">
+    <Compile Update="Views\ReadHistDataWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\Test_for_edu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\TryInitializeHistDBColumns.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -27,13 +33,19 @@
     <Page Update="Views\ConnectDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\CreateKeySpaceWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\InsertDataWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\RedView.xaml">
+    <Page Update="Views\ReadHistDataWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\Test_for_edu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TryInitializeHistDBColumns.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

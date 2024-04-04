@@ -1,69 +1,61 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-// using Cas_1._4.ViewModels;
-using Common.MsgLog;
+﻿using Common.MsgLog;
 using Common;
+using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
+using System.Windows;
 using HistoryDB;
+using System.Windows.Controls;
+
 
 namespace Cas_1._4.Views
 {
-    /// <summary>
-    /// Логика взаимодействия для InsertDataWindow.xaml
-    /// </summary>
-    public partial class InsertDataWindow
+    public partial class InsertDataWindow : Window
     {
+        private CassandraHistory _cassandraHistory;
+
         public InsertDataWindow(CassandraHistory cassandraHistory)
         {
             InitializeComponent();
             _cassandraHistory = cassandraHistory;
         }
 
-        private CassandraHistory _cassandraHistory;
-
-        public void InsertData_Click(object sender, RoutedEventArgs e)
+        private void InsertData_Click(object sender, RoutedEventArgs e)
         {
-            // Получаем данные из UI
             string database = DatabaseTextBox.Text;
             int nodeId = int.Parse(NodeIdTextBox.Text);
-            Dictionary<int, List<DataVal>> data = new Dictionary<int, List<DataVal>>();
+            int tagId = int.Parse(TagIdTextBox.Text);
+            DateTime dateTime = DateTimePicker.SelectedDate ?? DateTime.Now;
+            double value = double.Parse(ValueTextBox.Text, CultureInfo.InvariantCulture);
 
-            // Заполняем данные из таблицы
-            foreach (var item in DataGrid.Items)
-            {
-                DataVal dataVal = item as DataVal;
-                int tagId = (int)dataVal.sn;
-                if (!data.ContainsKey(tagId))
-                {
-                    data[tagId] = new List<DataVal>();
-                }
-                data[tagId].Add(dataVal);
-            }
+            var data = new Dictionary<int, List<DataVal>>();
+            var dataVals = new List<DataVal>();
 
-            // Вызываем метод TryInsertData
+
+            new DataVal { DateTime = dateTime, Val = value, IsGood = true };
+
+
+            data.Add(tagId, dataVals);
+
             MsgLogClass msgLog;
             bool success = _cassandraHistory.TryInsertData(database, nodeId, data, out msgLog);
 
-            //    // Обновляем лог
-            //    if (success)
-            //    {
-            //        LogTextBox.Text += "Data inserted successfully.\n";
-            //    }
-            //    else
-            //    {
-            //        LogTextBox.Text += $"Failed to insert data. Error: {msgLog?.LogText}\n";
-            //    }
+            if (success)
+            {
+                MessageBox.Show("Data inserted successfully.");
+            }
+            else
+            {
+                MessageBox.Show($"Failed to insert data. Error: {msgLog.LogDetails}");
+            }
+
+            Close();
+            void NodeIdTextBox_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+            {
+
+            }
         }
+
     }
 }
