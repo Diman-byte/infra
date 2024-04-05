@@ -66,7 +66,7 @@ namespace Cas_1._4
 
         private void ViewData_Click(object sender, RoutedEventArgs e)
         {
-            // Открытие окна для просмотра данных
+            DataContext = new HistDataQueryWindow(_cassandraHistory);
         }
 
         private void ManageEvents_Click(object sender, RoutedEventArgs e)

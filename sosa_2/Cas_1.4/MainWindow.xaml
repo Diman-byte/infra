@@ -9,12 +9,17 @@
         xmlns:views="clr-namespace:Cas_1._4.Views"
         
         mc:Ignorable="d"
-        Title="Cassandra Data Management" Height="500" Width="800">
+        Title="Cassandra Data Management">
 
     <Window.Resources>
         <DataTemplate x:Name="InsertTemplate"  DataType="{x:Type views:InsertDataWindow}">
             <views:InsertDataWindow DataContext="{Binding}"/>
         </DataTemplate>
+
+        <DataTemplate x:Name="HistDataQueryTemplate"  DataType="{x:Type views:HistDataQueryWindow}">
+            <views:HistDataQueryWindow DataContext="{Binding}"/>
+        </DataTemplate>
+
     </Window.Resources>
 
     <Grid Background="Gray">
@@ -45,7 +50,7 @@
             </MenuItem>
             <MenuItem Header="Data">
                 <MenuItem Header="Insert Random Data" Click="InsertData_Click"/>
-                <MenuItem Header="View Data" Click="ViewData_Click"/>
+                <MenuItem Header="Посмотреть исторические данные" Click="ViewData_Click"/>
                 <Separator/>
                
                 <MenuItem Header="Create Column Family" Click="InitializeHistDBColumns_Click"/>
