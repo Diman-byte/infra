@@ -19,6 +19,9 @@
     <Compile Update="Views\InsertDataWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\TruncateNodeTablesWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\TryInitializeHistDBColumns.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -37,6 +40,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\InsertDataWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TruncateNodeTablesWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\TryInitializeHistDBColumns.xaml">

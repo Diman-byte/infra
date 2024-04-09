@@ -24,7 +24,7 @@
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition/>
+            <RowDefinition Height="20"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -32,7 +32,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <Menu VerticalAlignment="Top" Grid.ColumnSpan="5">
+        <Menu VerticalAlignment="Top" Grid.Row="0" Grid.ColumnSpan="5">
             <MenuItem Header="File">
                 <MenuItem Header="Connect" Click="Connect_Click"/>
                 <MenuItem Header="Disconnect" Click="Disconnect_Click"/>
@@ -45,6 +45,8 @@
                 <Separator/>
                 <MenuItem Header="Create KeySpace" Click="CreateKeySpace_Click"/>
                 <MenuItem Header="Create Column Family" Click="InitializeHistDBColumns_Click"/>
+                <Separator/>
+                <MenuItem Header="Очистка таблиц узла" Click="DeleteNodeTables_Click"/>
             </MenuItem>
             <MenuItem Header="Events">
                 <MenuItem Header="Manage Events" Click="ManageEvents_Click"/>
@@ -53,7 +55,7 @@
        <!-- <TextBox x:Name="LogTextBox" IsReadOnly="True" VerticalAlignment="Bottom" Margin="10"/> -->
 
 
-        <ContentControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="4" x:Name="Placeholder"/>
+        <ContentControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="6" x:Name="Placeholder"/>
 
 
     </Grid>

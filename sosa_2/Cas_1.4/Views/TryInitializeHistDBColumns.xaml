@@ -10,14 +10,22 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Label Content="Historical Database Name:" Grid.Row="0" Margin="5"/>
-        <TextBox x:Name="DatabaseNameTextBox" Grid.Row="0" Margin="5"/>
+        <!-- Метка и поле ввода для названия базы данных -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+            <TextBlock Text="Название базы данных:"/>
+            <TextBox x:Name="DatabaseNameTextBox" Margin="5" Width="167" Height="17"/>
+        </StackPanel>
 
-        <Label Content="Node IDs (comma separated):" Grid.Row="1" Margin="5"/>
-        <TextBox x:Name="NodeIdsTextBox" Grid.Row="1" Margin="5" Height="100" TextWrapping="Wrap"/>
+        <!-- Метка и поле ввода для списка идентификаторов узлов -->
+        <StackPanel Grid.Row="1" Margin="5">
+            <TextBlock Text="Список идентификаторов узлов (разделенных запятой):"/>
+            <TextBox x:Name="NodeIdsTextBox" Margin="5" Height="100" TextWrapping="Wrap"/>
+        </StackPanel>
 
-        <Button Content="Initialize Columns" Grid.Row="2" Click="InitializeHistDBColumns_Click" Margin="5"/>
+        <!-- Кнопка для инициализации столбцов -->
+        <Button Content="Инициализировать столбцы" Grid.Row="2" Click="InitializeHistDBColumns_Click" Margin="5"/>
 
+        <!-- Метка для отображения результата -->
         <TextBlock x:Name="ResultTextBox" Grid.Row="3" Margin="5" TextWrapping="Wrap" />
     </Grid>
 </Window>

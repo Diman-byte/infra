@@ -95,5 +95,10 @@ namespace Cas_1._4
             // DataContext = new CreateKeySpaceWindow(_cassandraHistory);
         }
 
+        private void DeleteNodeTables_Click(object sender, RoutedEventArgs e)
+        {
+            var truncateNodeTablesWindow = new TruncateNodeTablesWindow(_cassandraHistory);
+            Placeholder.Content = truncateNodeTablesWindow;
+        }
     }
 }

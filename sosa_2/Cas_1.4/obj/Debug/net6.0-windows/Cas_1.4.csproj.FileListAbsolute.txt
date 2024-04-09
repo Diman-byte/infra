@@ -93,3 +93,5 @@ C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\HistDataQueryWindow.baml
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.g.cs
 C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\CreateKeySpaceWindow.baml
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.g.cs
+C:\Users\Dmitriy.Simonov\Desktop\Git\Cas_1.4\infra\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\Views\TruncateNodeTablesWindow.baml

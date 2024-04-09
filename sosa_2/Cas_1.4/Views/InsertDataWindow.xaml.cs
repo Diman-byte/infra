@@ -69,15 +69,15 @@ namespace Cas_1._4.Views
             MsgLogClass msgLog;
             bool success = _cassandraHistory.TryInsertData(database, nodeId, data_1, out msgLog);
 
-            //    // Обновляем лог
-            //    if (success)
-            //    {
-            //        LogTextBox.Text += "Data inserted successfully.\n";
-            //    }
-            //    else
-            //    {
-            //        LogTextBox.Text += $"Failed to insert data. Error: {msgLog?.LogText}\n";
-            //    }
+            // Обновляем лог
+            if (success)
+            {
+                ResultTextBox.Text = "Рандомные значения добавлены";
+            }
+            else
+            {
+                ResultTextBox.Text = "Ошибка. Message: " + (msgLog != null ? msgLog.LogText : "Unknown error.");
+            }
         }
     }
 }

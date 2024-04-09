@@ -15,6 +15,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="50"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
         <Grid.ColumnDefinitions>
@@ -37,5 +38,7 @@
 
         <!-- Insert Button -->
         <Button Grid.Row="3" Grid.Column="1"    Content="Insert Data" Click="InsertData_Click" HorizontalAlignment="Center" Margin="5"/>
+
+        <TextBlock x:Name="ResultTextBox" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" />
     </Grid>
 </UserControl>
