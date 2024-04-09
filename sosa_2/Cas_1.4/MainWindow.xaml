@@ -7,20 +7,11 @@
         xmlns:local="clr-namespace:Cas_1._4"
         
         xmlns:views="clr-namespace:Cas_1._4.Views"
+    
         
         mc:Ignorable="d"
-        Title="Cassandra Data Management">
+        Title="Cassandra Data Management"  Height="450" Width="800"> 
 
-    <Window.Resources>
-        <DataTemplate x:Name="InsertTemplate"  DataType="{x:Type views:InsertDataWindow}">
-            <views:InsertDataWindow DataContext="{Binding}"/>
-        </DataTemplate>
-
-        <DataTemplate x:Name="HistDataQueryTemplate"  DataType="{x:Type views:HistDataQueryWindow}">
-            <views:HistDataQueryWindow DataContext="{Binding}"/>
-        </DataTemplate>
-
-    </Window.Resources>
 
     <Grid Background="Gray">
 
@@ -52,7 +43,7 @@
                 <MenuItem Header="Insert Random Data" Click="InsertData_Click"/>
                 <MenuItem Header="Посмотреть исторические данные" Click="ViewData_Click"/>
                 <Separator/>
-               
+                <MenuItem Header="Create KeySpace" Click="CreateKeySpace_Click"/>
                 <MenuItem Header="Create Column Family" Click="InitializeHistDBColumns_Click"/>
             </MenuItem>
             <MenuItem Header="Events">
@@ -62,7 +53,7 @@
        <!-- <TextBox x:Name="LogTextBox" IsReadOnly="True" VerticalAlignment="Bottom" Margin="10"/> -->
 
 
-        <ContentControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="4" Content="{Binding}"/>
+        <ContentControl Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="5" Grid.RowSpan="4" x:Name="Placeholder"/>
 
 
     </Grid>

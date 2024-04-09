@@ -60,13 +60,16 @@ namespace Cas_1._4
 
         private void InsertData_Click(object sender, RoutedEventArgs e)
         {
-            DataContext = new InsertDataWindow(_cassandraHistory);
-           // InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
+            var insertDataWindow = new InsertDataWindow(_cassandraHistory);
+            Placeholder.Content = insertDataWindow;
+            // DataContext = new InsertDataWindow(_cassandraHistory);       
+            // InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
         }
 
         private void ViewData_Click(object sender, RoutedEventArgs e)
         {
-            DataContext = new HistDataQueryWindow(_cassandraHistory);
+            var histDataQueryWindow = new HistDataQueryWindow(_cassandraHistory);
+            Placeholder.Content = histDataQueryWindow;
         }
 
         private void ManageEvents_Click(object sender, RoutedEventArgs e)
@@ -83,6 +86,13 @@ namespace Cas_1._4
         {
             InitializeHistDBColumnsWindow initializeHistDBColumnsWindow = new InitializeHistDBColumnsWindow(_cassandraHistory);
             initializeHistDBColumnsWindow.ShowDialog();
+        }
+
+        private void CreateKeySpace_Click(object sender, RoutedEventArgs e)
+        {
+            var createKeySpaceWindow = new CreateKeySpaceWindow(_cassandraHistory);
+            Placeholder.Content = createKeySpaceWindow;
+            // DataContext = new CreateKeySpaceWindow(_cassandraHistory);
         }
 
     }

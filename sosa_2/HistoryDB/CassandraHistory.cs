@@ -731,7 +731,7 @@ namespace HistoryDB
         /// </summary>
         /// <param name="keyspace"></param>
         /// <returns></returns>
-        private bool TryCreateKeyspace(string keyspace, out MsgLogClass msgLog)
+        public bool TryCreateKeyspace(string keyspace, out MsgLogClass msgLog)
         {            
             try
             {
