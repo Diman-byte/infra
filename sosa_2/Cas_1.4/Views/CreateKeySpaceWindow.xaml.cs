@@ -20,7 +20,7 @@ namespace Cas_1._4.Views
     /// <summary>
     /// Логика взаимодействия для CreateKeySpaceWindow.xaml
     /// </summary>
-    public partial class CreateKeySpaceWindow : Window
+    public partial class CreateKeySpaceWindow : UserControl
     {
         private readonly CassandraHistory _cassandraHistory;
 

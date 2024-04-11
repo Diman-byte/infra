@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\Maksim.Shamin\Desktop\Our project\infra\sosa_2\Cas_1.4\App.xaml
-7653599861
+81343565680
 
-12-88456813
+15943062642
 205-1029579054
-MainWindow.xaml;Views\ConnectDialog.xaml;Views\CreateKeySpaceWindow.xaml;Views\InsertDataWindow.xaml;Views\ReadHistDataWindow.xaml;Views\Test_for_edu.xaml;Views\TryInitializeHistDBColumns.xaml;
+MainWindow.xaml;Views\ConnectDialog.xaml;Views\CreateKeySpaceWindow.xaml;Views\HistDataQueryWindow.xaml;Views\InsertDataWindow.xaml;Views\TruncateNodeTablesWindow.xaml;Views\TryDropNodeTables.xaml;Views\TryInitializeHistDBColumns.xaml;
 
 True
 

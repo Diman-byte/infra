@@ -1,5 +1,4 @@
 ﻿
-using Cas_1._4.Views;
 using HistoryDB;
 using System.Text;
 using System.Windows;
@@ -11,6 +10,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+
+using Cas_1._4.Views;
+// using Cas_1._4.ViewModels;
 
 using static Cas_1._4.Views.ConnectDialog;
 
@@ -28,6 +30,7 @@ namespace Cas_1._4
         }
 
         private CassandraHistory _cassandraHistory;
+       
 
         private void Connect_Click(object sender, RoutedEventArgs e)
         {
@@ -57,14 +60,16 @@ namespace Cas_1._4
 
         private void InsertData_Click(object sender, RoutedEventArgs e)
         {
-            InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
-            insertDataWindow.ShowDialog();
+            var insertDataWindow = new InsertDataWindow(_cassandraHistory);
+            Placeholder.Content = insertDataWindow;
+            // DataContext = new InsertDataWindow(_cassandraHistory);       
+            // InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
         }
 
         private void ViewData_Click(object sender, RoutedEventArgs e)
         {
-            ReadHistDataWindow readHistDataWindow = new ReadHistDataWindow(_cassandraHistory);
-            readHistDataWindow.ShowDialog();
+            var histDataQueryWindow = new HistDataQueryWindow(_cassandraHistory);
+            Placeholder.Content = histDataQueryWindow;
         }
 
         private void ManageEvents_Click(object sender, RoutedEventArgs e)
@@ -72,11 +77,9 @@ namespace Cas_1._4
             // Открытие окна управления событиями
         }
 
-        private void CreateKeySpace_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            CreateKeySpaceWindow createKeySpaceWindow = new CreateKeySpaceWindow(_cassandraHistory);
-            createKeySpaceWindow.ShowDialog(); 
-            // Открываете окно создания KeySpace или вызываете соответствующий метод, если создание происходит без отдельного окна
+
         }
 
         private void InitializeHistDBColumns_Click(object sender, RoutedEventArgs e)
@@ -85,7 +88,22 @@ namespace Cas_1._4
             initializeHistDBColumnsWindow.ShowDialog();
         }
 
+        private void CreateKeySpace_Click(object sender, RoutedEventArgs e)
+        {
+            var createKeySpaceWindow = new CreateKeySpaceWindow(_cassandraHistory);
+            Placeholder.Content = createKeySpaceWindow;
+            // DataContext = new CreateKeySpaceWindow(_cassandraHistory);
+        }
 
-
+        private void DeleteNodeTables_Click(object sender, RoutedEventArgs e)
+        {
+            var truncateNodeTablesWindow = new TruncateNodeTablesWindow(_cassandraHistory);
+            Placeholder.Content = truncateNodeTablesWindow;
+        }
+        private void DropNodeTablesClick(object sender, RoutedEventArgs e)
+        {
+            var dropNodeTables = new DropNodeTables(_cassandraHistory);
+            Placeholder.Content = dropNodeTables;
+        }
     }
 }

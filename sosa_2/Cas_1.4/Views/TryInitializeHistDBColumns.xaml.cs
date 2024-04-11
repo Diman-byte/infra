@@ -20,7 +20,7 @@ namespace Cas_1._4.Views
     /// <summary>
     /// Логика взаимодействия для TryInitializeHistDBColumns.xaml
     /// </summary>
-    public partial class InitializeHistDBColumnsWindow  : Window
+    public partial class InitializeHistDBColumnsWindow : Window
     {
         private CassandraHistory _cassandraHistory;
         public InitializeHistDBColumnsWindow(CassandraHistory cassandraHistory)
@@ -71,9 +71,9 @@ namespace Cas_1._4.Views
             return nodeIds;
         }
 
-      
-        
+
+
     }
 
-   
+
 }

@@ -13,13 +13,16 @@
     <Compile Update="Views\CreateKeySpaceWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\HistDataQueryWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\InsertDataWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\ReadHistDataWindow.xaml.cs">
+    <Compile Update="Views\TruncateNodeTablesWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Test_for_edu.xaml.cs">
+    <Compile Update="Views\TryDropNodeTables.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\TryInitializeHistDBColumns.xaml.cs">
@@ -36,13 +39,16 @@
     <Page Update="Views\CreateKeySpaceWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\HistDataQueryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\InsertDataWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\ReadHistDataWindow.xaml">
+    <Page Update="Views\TruncateNodeTablesWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Test_for_edu.xaml">
+    <Page Update="Views\TryDropNodeTables.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\TryInitializeHistDBColumns.xaml">
