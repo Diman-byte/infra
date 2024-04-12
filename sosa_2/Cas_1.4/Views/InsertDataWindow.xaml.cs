@@ -45,7 +45,7 @@ namespace Cas_1._4.Views
             // рандом
             int limit_tag = 20;   // количество тегов для генерации
             int interval = 1000;  // диапазон рандомных чисел от 0 до interval
-            int kolvo_val = 5;   // количество значений в каждом теге
+            int kolvo_val = 1;   // количество значений в каждом теге
             var random = new Random();
             for (int tag_id = 1; tag_id <= limit_tag; tag_id++)
             {

@@ -37,10 +37,15 @@ namespace Cas_1._4
             var connectDialog = new ConnectDialog(_cassandraHistory); // Инициализация диалога подключения
             var dialogResult = connectDialog.ShowDialog(); // Показать диалог и получить результат
 
+            string OurIP = _cassandraHistory._HOST.ToString();
+            OurIP = "IP узла, к которому мы подключены " + OurIP;
+            IPTextBox.Text = OurIP;
+
+
             if (dialogResult == true)
             {
                 // Обработка успешного подключения
-         
+
             }
             else
             {
@@ -99,6 +104,11 @@ namespace Cas_1._4
         {
             var truncateNodeTablesWindow = new TruncateNodeTablesWindow(_cassandraHistory);
             Placeholder.Content = truncateNodeTablesWindow;
+        }
+        private void DropNodeTablesClick(object sender, RoutedEventArgs e)
+        {
+            var dropNodeTables = new DropNodeTables(_cassandraHistory);
+            Placeholder.Content = dropNodeTables;
         }
     }
 }
