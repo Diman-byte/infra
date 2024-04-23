@@ -78,7 +78,7 @@ namespace Cas_1._4.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Cas_1.4;component/views/insertdatawindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Cas_1.4;V1.0.0.0;component/views/insertdatawindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\InsertDataWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

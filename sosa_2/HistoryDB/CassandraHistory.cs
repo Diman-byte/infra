@@ -22,6 +22,8 @@ namespace HistoryDB
         private ISession _session;
         private string _connectionString;
 
+        public string _HOST;
+
         /// <summary>
         /// Конструктор
         /// </summary>
@@ -44,6 +46,8 @@ namespace HistoryDB
                 msgLog = new MsgLogClass() { SourceLog = nameof(CassandraHistory),  LogText = $"Не удалось подключиться к Cassandra", TypeLog = TypeMsg.Err, LogDetails = exception.ToString() };
                 return false;
             }
+
+            _HOST = serverConnectInfo.Host;
 
             msgLog = null;
             return true;
@@ -335,7 +339,9 @@ namespace HistoryDB
                     }
 
                     strVal.Append("APPLY BATCH;");
-                    _session.Execute(strVal.ToString());
+                    // Создание SimpleStatement с уровнем согласованности ONE
+                    var statement = new SimpleStatement(strVal.ToString()).SetConsistencyLevel(ConsistencyLevel.One);
+                    _session.Execute(statement);
                     //_session.ExecuteAsync(IStatement statement);
                 }
 
@@ -641,10 +647,10 @@ namespace HistoryDB
         /// <param name="histDBName"></param>
         /// <param name="msgLog"></param>
         /// <returns></returns>
-        public bool TryInitializeHistDB(string histDBName, out MsgLogClass msgLog)
+        public bool TryInitializeHistDB(string histDBName, int replicationFactor,  out MsgLogClass msgLog)
         {
             //Создание пространства ключей для проекта
-            if (!TryCreateKeyspace(histDBName, out MsgLogClass msg1))
+            if (!TryCreateKeyspace(histDBName, replicationFactor, out MsgLogClass msg1))
             {
                 msgLog = msg1;
                 return false;
@@ -731,12 +737,12 @@ namespace HistoryDB
         /// </summary>
         /// <param name="keyspace"></param>
         /// <returns></returns>
-        public bool TryCreateKeyspace(string keyspace, out MsgLogClass msgLog)
+        public bool TryCreateKeyspace(string keyspace, int replicationFactor, out MsgLogClass msgLog)
         {            
             try
             {
                 var query =
-                    $"CREATE KEYSPACE IF NOT EXISTS \"{keyspace}\" with replication={{'class':'SimpleStrategy','replication_factor': '1'}};";
+                    $"CREATE KEYSPACE IF NOT EXISTS \"{keyspace}\" with replication={{'class':'SimpleStrategy','replication_factor': '{replicationFactor}'}};";
                 _session.Execute(query);
             }
             catch (Exception exception)

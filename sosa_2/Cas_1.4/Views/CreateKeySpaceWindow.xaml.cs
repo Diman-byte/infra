@@ -33,17 +33,25 @@ namespace Cas_1._4.Views
         private void CreateKeyspace_Click(object sender, RoutedEventArgs e)
         {
             string keyspace = KeyspaceTextBox.Text;
-            MsgLogClass msgLog;
-            bool success = _cassandraHistory.TryCreateKeyspace(keyspace, out msgLog);
-
-            if (success)
+            if (int.TryParse(ReplicationFactorTextBox.Text, out int replicationFactor))
             {
-                MessageBox.Show("Keyspace успешно создан.", "Создание Keyspace", MessageBoxButton.OK, MessageBoxImage.Information);
+                MsgLogClass msgLog;
+                bool success = _cassandraHistory.TryCreateKeyspace(keyspace, replicationFactor, out msgLog);
+
+                if (success)
+                {
+                    MessageBox.Show("Keyspace успешно создан.", "Создание Keyspace", MessageBoxButton.OK, MessageBoxImage.Information);
+                }
+                else
+                {
+                    MessageBox.Show($"Ошибка при создании Keyspace: {msgLog.LogText}", "Создание Keyspace", MessageBoxButton.OK, MessageBoxImage.Warning);
+                }
             }
             else
             {
-                MessageBox.Show($"Ошибка при создании Keyspace: {msgLog.LogText}", "Создание Keyspace", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Ошибка: Неверный фактор репликации. Пожалуйста, введите целое число.", "Неверный ввод", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
     }
 }
