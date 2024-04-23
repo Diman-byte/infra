@@ -33,6 +33,7 @@
         <TextBox x:Name="NodeIdTextBox" Grid.Row="1" Grid.Column="1" Margin="5"/>
 
         <StackPanel Grid.Row="2" Grid.Column="1">
+            <TextBlock>Синхронное добавление данных</TextBlock>
             <TextBlock>Значения генерируются рандомно</TextBlock>
         </StackPanel>
 

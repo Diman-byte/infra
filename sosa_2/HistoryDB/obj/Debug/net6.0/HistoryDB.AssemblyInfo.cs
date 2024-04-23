@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HistoryDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73b196768c44c8a91f51a64674f58b6e8f1d99af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8990d0217e37121f3f60084b525f942c66c9d379")]
 [assembly: System.Reflection.AssemblyProductAttribute("HistoryDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HistoryDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -647,10 +647,10 @@ namespace HistoryDB
         /// <param name="histDBName"></param>
         /// <param name="msgLog"></param>
         /// <returns></returns>
-        public bool TryInitializeHistDB(string histDBName, out MsgLogClass msgLog)
+        public bool TryInitializeHistDB(string histDBName, int replicationFactor,  out MsgLogClass msgLog)
         {
             //Создание пространства ключей для проекта
-            if (!TryCreateKeyspace(histDBName, out MsgLogClass msg1))
+            if (!TryCreateKeyspace(histDBName, replicationFactor, out MsgLogClass msg1))
             {
                 msgLog = msg1;
                 return false;
@@ -737,12 +737,12 @@ namespace HistoryDB
         /// </summary>
         /// <param name="keyspace"></param>
         /// <returns></returns>
-        public bool TryCreateKeyspace(string keyspace, out MsgLogClass msgLog)
+        public bool TryCreateKeyspace(string keyspace, int replicationFactor, out MsgLogClass msgLog)
         {            
             try
             {
                 var query =
-                    $"CREATE KEYSPACE IF NOT EXISTS \"{keyspace}\" with replication={{'class':'SimpleStrategy','replication_factor': '2'}};";
+                    $"CREATE KEYSPACE IF NOT EXISTS \"{keyspace}\" with replication={{'class':'SimpleStrategy','replication_factor': '{replicationFactor}'}};";
                 _session.Execute(query);
             }
             catch (Exception exception)
