@@ -71,6 +71,12 @@ namespace Cas_1._4
             // InsertDataWindow insertDataWindow = new InsertDataWindow(_cassandraHistory);
         }
 
+        private void InsertDataAsync_Click(object sender, RoutedEventArgs e)
+        {
+            var insertDataWindow = new InsertDataAsyncWindow(_cassandraHistory);
+            Placeholder.Content = insertDataWindow;
+        }
+
         private void ViewData_Click(object sender, RoutedEventArgs e)
         {
             var histDataQueryWindow = new HistDataQueryWindow(_cassandraHistory);

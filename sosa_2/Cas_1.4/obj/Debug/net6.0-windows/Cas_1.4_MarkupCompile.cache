@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\
+C:\Users\Maksim.Shamin\Desktop\Project\sosa_2\Cas_1.4\obj\Debug\net6.0-windows\
 Cas_1._4
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\Maksim.Shamin\Desktop\proj\sosa_2\Cas_1.4\App.xaml
-81343565680
+C:\Users\Maksim.Shamin\Desktop\Project\sosa_2\Cas_1.4\App.xaml
+9-1809035878
 
-13690590253
-2051307459001
-MainWindow.xaml;Views\ConnectDialog.xaml;Views\CreateKeySpaceWindow.xaml;Views\HistDataQueryWindow.xaml;Views\InsertDataWindow.xaml;Views\TruncateNodeTablesWindow.xaml;Views\TryDropNodeTables.xaml;Views\TryInitializeHistDBColumns.xaml;
+14-1818152942
+205-1092145174
+MainWindow.xaml;Views\ConnectDialog.xaml;Views\CreateKeySpaceWindow.xaml;Views\HistDataQueryWindow.xaml;Views\InsertDataAsyncWindow.xaml;Views\InsertDataWindow.xaml;Views\TruncateNodeTablesWindow.xaml;Views\TryDropNodeTables.xaml;Views\TryInitializeHistDBColumns.xaml;
 
 False
 

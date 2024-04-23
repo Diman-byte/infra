@@ -101,7 +101,7 @@ namespace Cas_1._4.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Cas_1.4;V1.0.0.0;component/views/connectdialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Cas_1.4;component/views/connectdialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ConnectDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

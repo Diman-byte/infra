@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3pkcKRm0VYaxP12qTd9mAQ93W8lgBQURbJ/dwyIe3E5GPgAG15g+DshcNXrG5tGox/PtFaJZMJCgInW3zqbsww==",
+  "dgSpecHash": "GLXtZ1smSarWPm7U+mrhpCSG3kjWyfbE1VupD9CQ6i61gP+LJG1Qxwf3LhuARaY0+ZPA1drLRKizT5HMuToGcQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maksim.Shamin\\Desktop\\proj\\sosa_2\\Common\\Common.csproj",
+  "projectFilePath": "C:\\Users\\Maksim.Shamin\\Desktop\\Project\\sosa_2\\Common\\Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maksim.Shamin\\.nuget\\packages\\coreclr-ncalc\\2.2.113\\coreclr-ncalc.2.2.113.nupkg.sha512",
     "C:\\Users\\Maksim.Shamin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

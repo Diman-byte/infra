@@ -16,6 +16,9 @@
     <Compile Update="Views\HistDataQueryWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\InsertDataAsyncWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\InsertDataWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -40,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\HistDataQueryWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\InsertDataAsyncWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\InsertDataWindow.xaml">

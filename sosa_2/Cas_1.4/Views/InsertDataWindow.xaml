@@ -4,13 +4,12 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Cas_1._4.Views"
-             
-             xmlns:viewsmodels="clr-namespace:Cas_1._4.ViewModels"
-             
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="Aqua">
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="50"/>
@@ -32,13 +31,23 @@
         <Label Grid.Row="1" Content="Node ID:"/>
         <TextBox x:Name="NodeIdTextBox" Grid.Row="1" Grid.Column="1" Margin="5"/>
 
-        <StackPanel Grid.Row="2" Grid.Column="1">
+        <!-- Number of Tags -->
+        <Label Grid.Row="2" Content="Number of Tags:"/>
+        <TextBox x:Name="TagCountTextBox" Grid.Row="2" Grid.Column="1" Margin="5" Text="10000"/>
+
+        <!-- Number of Values per Tag -->
+        <Label Grid.Row="3" Content="Values per Tag:"/>
+        <TextBox x:Name="ValuesPerTagTextBox" Grid.Row="3" Grid.Column="1" Margin="5" Text="1"/>
+
+        <StackPanel Grid.Row="4" Grid.Column="1">
+            <TextBlock>Синхронное добавление данных</TextBlock>
             <TextBlock>Значения генерируются рандомно</TextBlock>
         </StackPanel>
 
         <!-- Insert Button -->
-        <Button Grid.Row="3" Grid.Column="1"    Content="Insert Data" Click="InsertData_Click" HorizontalAlignment="Center" Margin="5"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="Insert Data" Click="InsertData_Click" HorizontalAlignment="Center" Margin="5"/>
 
-        <TextBlock x:Name="ResultTextBox" Grid.Row="4" Grid.Column="1" TextWrapping="Wrap" />
+        <!-- Result TextBlock -->
+        <TextBlock x:Name="ResultTextBox" Grid.Row="6" Grid.Column="1" TextWrapping="Wrap" />
     </Grid>
 </UserControl>
